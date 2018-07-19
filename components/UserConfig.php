@@ -1,20 +1,20 @@
 <?php
 
-namespace webvimark\modules\UserManagement\components;
+namespace quoma\modules\UserManagement\components;
 
 use yii\web\User;
 use Yii;
 
 /**
  * Class UserConfig
- * @package webvimark\modules\UserManagement\components
+ * @package quoma\modules\UserManagement\components
  */
 class UserConfig extends User
 {
 	/**
 	 * @inheritdoc
 	 */
-	public $identityClass = 'webvimark\modules\UserManagement\models\User';
+	public $identityClass = 'quoma\modules\UserManagement\models\User';
 
 	/**
 	 * @inheritdoc
